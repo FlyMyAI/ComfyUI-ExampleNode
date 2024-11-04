@@ -1,0 +1,24 @@
+{
+  "9": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "10",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "10": {
+    "inputs": {
+      "positive_prompt": "high quality, detailed"
+    },
+    "class_type": "ExampleT2IFMANode",
+    "_meta": {
+      "title": "FlyMyAI example node T2I"
+    }
+  }
+}
