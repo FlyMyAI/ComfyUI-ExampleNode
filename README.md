@@ -11,3 +11,5 @@ NODE_DISPLAY_NAME_MAPPINGS = {}  # this var does not affect anything at all
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
 ```
 3. `requirements.txt` - default Python dependency map. Do not override `numpy` - we restrict this action with our engine.
+
+Do not add `.dont_pack_those_files` files to your repository - it's not used by flymy_comfyui.
